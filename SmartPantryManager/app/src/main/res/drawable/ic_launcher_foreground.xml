@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple pantry / basket icon style -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L78,40 L74,80 L34,80 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,40 L40,32 Q40,24 54,24 Q68,24 68,32 L68,40"/>
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M48,52 L60,52 L60,68 L48,68 Z"/>
+</vector>

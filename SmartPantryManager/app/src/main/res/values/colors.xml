@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Blue palette -->
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="primary_blue_light">#42A5F5</color>
+    <color name="accent_blue">#1E88E5</color>
+
+    <!-- Accent Red -->
+    <color name="accent_red">#D32F2F</color>
+    <color name="accent_red_dark">#B71C1C</color>
+    <color name="accent_red_light">#EF5350</color>
+
+    <!-- Neutrals -->
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#FAFAFA</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#9E9E9E</color>
+    <color name="dark_gray">#424242</color>
+    <color name="black">#212121</color>
+
+    <!-- Status / feedback -->
+    <color name="success_green">#388E3C</color>
+    <color name="warning_amber">#FFA000</color>
+    <color name="expiry_soon">#FF6F00</color>
+
+    <!-- Card backgrounds -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#E3F2FD</color>
+</resources>

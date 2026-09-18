@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/off_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suggested_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue_dark"
+        android:padding="16dp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvSuggestedCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/accent_red"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="8dp"
+        android:text="0 recipe(s) you can cook now" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSuggested"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvEmptySuggested"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/no_suggested"
+        android:textSize="16sp"
+        android:textColor="@color/medium_gray"
+        android:visibility="gone"
+        android:padding="32dp" />
+</LinearLayout>
